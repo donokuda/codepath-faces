@@ -11,6 +11,7 @@
 		6556F673154536F0A511C3E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490635C5467607233D188A3 /* AppDelegate.swift */; };
 		96D96653B0AB6D2DEBD3986C /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = E7619C8728662A6B32FCB756 /* Main.storyboard */; };
 		AFDF280CE94A98FC304C9E4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C4D217A261451EF9B910D1 /* Images.xcassets */; };
+		B05EEF231A958AFB007B1243 /* FacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05EEF221A958AFB007B1243 /* FacesViewController.swift */; };
 		F0ED5A00186FB39B625B9962 /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 626F8CF429D6666D69C9BD78 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		5356BFF488F96BEA5C9011A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		626F8CF429D6666D69C9BD78 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		86EF3B68DCE1C1BAC44B85DF /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05EEF221A958AFB007B1243 /* FacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacesViewController.swift; sourceTree = "<group>"; };
 		DEF03979EF95B51ACF2653BE /* faces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7619C8728662A6B32FCB756 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F5C4D217A261451EF9B910D1 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -145,6 +147,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		B05EEF211A958A75007B1243 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B05EEF221A958AFB007B1243 /* FacesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		B67FE78EE172E31515F5296E /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +181,7 @@
 		EA78C9E309C9CE22EFAA284B /* faces */ = {
 			isa = PBXGroup;
 			children = (
+				B05EEF211A958A75007B1243 /* ViewControllers */,
 				FD411D0EF527903D95BA0412 /* Extensions */,
 				5BB77A7463DE83B6FE4BFE98 /* Protocols */,
 				06E1EC23E79B14F0C12D205C /* Models */,
@@ -325,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6556F673154536F0A511C3E5 /* AppDelegate.swift in Sources */,
+				B05EEF231A958AFB007B1243 /* FacesViewController.swift in Sources */,
 				96D96653B0AB6D2DEBD3986C /* Main.storyboard in Sources */,
 				F0ED5A00186FB39B625B9962 /* LaunchScreen.xib in Sources */,
 			);
